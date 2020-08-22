@@ -4,8 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  background: #f1f143 url("../img/name.png");
-  background-repeat: repeat;
+  background-color: #f1f143;
+  transition: background-color 0.5s;
+}
+.body--dark {
+  background-color: #1b1b1b;
 }
 main {
   background-color: #275f5f;
@@ -39,6 +42,7 @@ main {
 }
 
 .switch {
+  // position: relative;
   overflow: hidden;
   height: 1.6rem;
   width: 4.1rem;

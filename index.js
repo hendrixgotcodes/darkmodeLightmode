@@ -1,6 +1,6 @@
 // Getting DOM elements
 const checkBox = document.getElementById("checkbox");
-const body = document.querySelector("body");
+const body = document.querySelector(".body");
 
 //Adding event listener to checkbox
 checkBox.addEventListener("change",()=>{

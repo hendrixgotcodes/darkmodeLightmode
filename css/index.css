@@ -12,8 +12,8 @@ body {
 
 main {
   background-color: #275f5f;
-  width: 30%;
-  height: 10rem;
+  width: 70%;
+  height: 15rem;
   margin: auto;
   position: relative;
   top: 16rem;
@@ -22,23 +22,30 @@ main {
   justify-content: center;
   align-items: center; }
 
+.center {
+  position: relative;
+  height: 40%;
+  width: 50%;
+  background-color: red; }
+
 #checkbox {
   position: absolute;
-  top: 4.2rem;
-  right: 12.1rem;
+  top: 0rem;
+  right: 0rem;
   z-index: 8;
-  height: 1.6rem;
-  width: 4rem;
+  height: 100;
+  width: 100%;
   opacity: 0;
-  cursor: pointer; }
+  cursor: pointer;
+  color: #fff; }
 
 #checkbox:checked + .switch .toggler {
-  transform: translateX(-44px); }
+  transform: translateX(-200%); }
 
 .switch {
   overflow: hidden;
-  height: 1.6rem;
-  width: 4.1rem;
+  height: 100%;
+  width: 100%;
   background-color: #000000;
   border: 1px solid #dfdfdf;
   margin: auto;
@@ -66,11 +73,13 @@ main {
     width: 2rem;
     height: 2rem;
     right: 12rem;
-    background-color: #616161;
+    background-color: #383838;
     z-index: 5;
     border-radius: 100%;
     border: 1px solid #dfdfdf;
-    transition: 0.3s ease; }
+    transition: 0.3s ease;
+    top: -.2rem;
+    right: -.2rem; }
   .switch .toggler2 {
     left: -0.7rem; }
 

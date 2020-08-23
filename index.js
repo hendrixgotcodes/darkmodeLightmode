@@ -8,3 +8,7 @@ checkBox.addEventListener("change",()=>{
     // Switching between a dark class of the body depending on checkbox's state
     body.classList.toggle("body--dark");
 })
+
+window.addEventListener("resize", ()=>{
+    console.log(innerWidth)
+})

@@ -30,7 +30,6 @@ main {
   position: relative;
   height: 40%;
   width: 50%;
-  background-color: red;
 }
 
 #checkbox {
@@ -47,7 +46,7 @@ main {
 }
 
 #checkbox:checked+.switch .toggler {
-  transform: translateX(-200%);
+  transform: translateX(-470px);
 }
 
 .switch {
@@ -79,10 +78,12 @@ main {
 
   & #switch-sun {
     color: #f1f143;
+    font-size: 4rem;
   }
 
   & #switch-moon {
     transform: rotate(220deg);
+    font-size: 4rem;
   }
 
   & .toggler {
@@ -91,16 +92,16 @@ main {
     align-items: center;
     content: "OFF";
     position: absolute;
-    width: 2rem;
-    height: 2rem;
+    width: 7rem;
+    height: 7rem;
     right: 12rem;
     background-color: #383838;
     z-index: 5;
     border-radius: 100%;
     border: 1px solid #dfdfdf;
     transition: 0.3s ease;
-    top: -.2rem;
-    right: -.2rem;
+    top: -.5rem;
+    right: -1.3rem;
   }
 
   & .toggler2 {

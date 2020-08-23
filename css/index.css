@@ -25,22 +25,21 @@ main {
 .center {
   position: relative;
   height: 40%;
-  width: 50%;
-  background-color: red; }
+  width: 50%; }
 
 #checkbox {
   position: absolute;
   top: 0rem;
   right: 0rem;
   z-index: 8;
-  height: 100;
+  height: 100%;
   width: 100%;
   opacity: 0;
   cursor: pointer;
   color: #fff; }
 
 #checkbox:checked + .switch .toggler {
-  transform: translateX(-200%); }
+  transform: translateX(-470px); }
 
 .switch {
   overflow: hidden;
@@ -61,25 +60,27 @@ main {
     z-index: 4;
     font-size: 1rem; }
   .switch #switch-sun {
-    color: #f1f143; }
+    color: #f1f143;
+    font-size: 4rem; }
   .switch #switch-moon {
-    transform: rotate(220deg); }
+    transform: rotate(220deg);
+    font-size: 4rem; }
   .switch .toggler {
     display: flex;
     justify-content: center;
     align-items: center;
     content: "OFF";
     position: absolute;
-    width: 2rem;
-    height: 2rem;
+    width: 7rem;
+    height: 7rem;
     right: 12rem;
     background-color: #383838;
     z-index: 5;
     border-radius: 100%;
     border: 1px solid #dfdfdf;
     transition: 0.3s ease;
-    top: -.2rem;
-    right: -.2rem; }
+    top: -.5rem;
+    right: -1.3rem; }
   .switch .toggler2 {
     left: -0.7rem; }
 

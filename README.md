@@ -1,5 +1,5 @@
 # DarkmodeLightmode
-Demonstration of the tutorial - `Dark-Mode Light-Mode` 
+Demonstration of the tutorial - Dark-Mode Light-Mode
 <br>
 [Click here](https://hendrixgotcodes.github.io/darkmodeLightmode/) to see demonstration
 <br>

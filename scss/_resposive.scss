@@ -1,0 +1,17 @@
+@media only screen and (min-width: 1020px) {
+    #checkbox:checked+.switch .toggler {
+        transform: translateX(-340%);
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    #checkbox:checked+.switch .toggler {
+        transform: translateX(-400%);
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #checkbox:checked+.switch .toggler {
+        transform: translateX(-420%);
+    }
+}
